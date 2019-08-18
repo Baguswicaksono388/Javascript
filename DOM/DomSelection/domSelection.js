@@ -16,3 +16,7 @@ for (let i = 0; i < p.length; i++) {
 }
 const h1 = document.getElementsByTagName('h1');
 h1[0].style.fontSize = '50px'; //..h1 sebenarnya dari html ini hanya ada 1. Tpi, knpa ini harus dikasih index ? Dikarenakan HtmlCollection ada berupa array, jadi harus diberi index.
+
+// document.getElementsByClassName() -> Mengembalikan HtmlCollections
+const p1 = document.getElementsByClassName('p1');
+p1[0].innerHTML = 'Ini diubah di Javascript';
