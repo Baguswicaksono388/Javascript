@@ -40,3 +40,5 @@ b. getElementsByTagName(), -> Html Collection
 c. getElementsByClassName(), -> Html Collection
 d. querySelector(), -> Element
 e. querySelectorAll(), -> Nodelist
+
+Nah, sekarang mana dari method kelima yang ada diatas yang paling cocok digunakan ? Jawabannya adalah tergantung pada kebutuhan kita. Semisal sudah mempunyai id, ya kita mending menggunakan getElementById(), dan seterusnya. Akan tetapi, jika tidak memiliki Id dan Class yang kita gunakan adalah method yang querySelector(). Kemudian untuk performa, mana yang lebih cepat ? Yang lebih cepat dari kelima method tersebut adalah getElementById() dan getElementsByTagName().
