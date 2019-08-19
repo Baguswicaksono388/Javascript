@@ -26,7 +26,7 @@ c. Child Node
     - h1 adalah child dari body.
     - Disini tidak mengenal node element atau text
 
-DOM SELECTION
+<h1>DOM SELECTION</h1>
 DOM SELECTION Method :
 a. getElementById(), yaitu memilih element pada html kita berdasarkan id nya. Perlu di ingat bahwasanya pada 1 halaman html harus mempunyai satu id tertentu. Misal element h1 ada id yang namanya judul, maka element" yang lainya tidak boleh menggunakan id tersebut.
 b. getElementsByTagName(), jadi ini untuk menugaskan javascript untuk mencarikan element - element nama tag tertentu.
