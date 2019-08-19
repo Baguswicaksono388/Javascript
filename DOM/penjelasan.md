@@ -1,9 +1,11 @@
-DOM (Document) :
+# DOM (Document) :
 
 Ini, kita pecah" terlebih dahulu arti dari setiap DOM :
-a. Document, disini diartikan sebuah halaman web kita.
-b. Object, sebuah nilai atau type data yang ada di Javascript, bisa berupa property dan function.
-c. Model, ini adalah representasi dari sesuatu.
+<ol>
+  <li>Document, disini diartikan sebuah halaman web kita.</li>
+  <li>Object, sebuah nilai atau type data yang ada di Javascript, bisa berupa property dan function.</li>
+  <li>Model, ini adalah representasi dari sesuatu.</li>
+</ol>  
 
 Jadi, bisa disimpulkan bahwa DOM adalah Representasi element HTML pada dokumen menjadi sebuah object.
 
@@ -26,7 +28,8 @@ c. Child Node
     - h1 adalah child dari body.
     - Disini tidak mengenal node element atau text
 
-<h1>DOM SELECTION</h1>
+#DOM SELECTION
+
 DOM SELECTION Method :
 a. getElementById(), yaitu memilih element pada html kita berdasarkan id nya. Perlu di ingat bahwasanya pada 1 halaman html harus mempunyai satu id tertentu. Misal element h1 ada id yang namanya judul, maka element" yang lainya tidak boleh menggunakan id tersebut.
 b. getElementsByTagName(), jadi ini untuk menugaskan javascript untuk mencarikan element - element nama tag tertentu.
