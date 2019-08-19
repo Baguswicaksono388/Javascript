@@ -10,3 +10,9 @@ li2.style.backgroundColor = 'orange';
 
 const p = document.querySelector('p'); //..ini arti nya kita akan melakukan querySelector pada element p. Seharusnya yang memiliki element p ini semuanya akan keedit, akan tetapi yang terkena ada element p yang pertama kali ditemukan, yaitu yang paling atas.
 p.innerHTML = 'ini diubah melalui Javascript';
+
+// document.querySelectorAll()
+const pAll = document.querySelectorAll('p');
+for (let i = 0; i < pAll.length; i++) {
+    pAll[i].style.backgroundColor = 'lightblue';
+}
